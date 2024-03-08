@@ -1,0 +1,60 @@
+/* Feel free to remove these styles or customise in your own stylesheet 👍  */
+
+body {
+    background-color:rgb(185, 201, 202);
+    font-family: 'Outfit';
+    background-position: center;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    width: 280px;
+    overflow: hidden;
+    margin: auto;
+    height: 420px;
+    font-size: 50px center;
+    text-align: center;
+    box-shadow: 10px 10px 10px 0 color(srgb rgb(184, 184, 196));
+    position: relative;
+}
+
+.card .qrcode{
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card .qrcode img {
+    border-radius: 10px;
+    width: 250px;
+    overflow: hidden;
+    margin-top: 15px;
+}
+
+footer{
+    
+    font-size: 11px;
+}
+
+h2 {
+    padding: 5px;
+    margin: 8px;
+    text-align: center;
+    font-size: 20px;
+}
+
+p {
+    font-size: 12px;
+    margin: auto;
+    width: 200px;
+    color: hsl(220, 15%, 55%);
+}
+
+
+
